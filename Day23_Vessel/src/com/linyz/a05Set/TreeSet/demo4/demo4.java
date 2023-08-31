@@ -6,7 +6,6 @@ import java.util.TreeSet;
 
 public class demo4 {
     public static void main(String[] args) {
-
         Student s1 = new Student("xo", 12, 90, 98, 50);
         Student s2 = new Student("xs", 11, 91, 97, 50);
         Student s3 = new Student("le", 14, 95, 100, 30);
