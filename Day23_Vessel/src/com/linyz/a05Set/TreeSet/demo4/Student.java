@@ -18,82 +18,42 @@ public class Student implements Comparable<Student>{
         this.english_score = english_score;
     }
 
-    /**
-     * 获取
-     * @return name
-     */
     public String getName() {
         return name;
     }
 
-    /**
-     * 设置
-     * @param name
-     */
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * 获取
-     * @return age
-     */
     public int getAge() {
         return age;
     }
 
-    /**
-     * 设置
-     * @param age
-     */
     public void setAge(int age) {
         this.age = age;
     }
 
-    /**
-     * 获取
-     * @return chinese_score
-     */
     public int getChinese_score() {
         return chinese_score;
     }
 
-    /**
-     * 设置
-     * @param chinese_score
-     */
     public void setChinese_score(int chinese_score) {
         this.chinese_score = chinese_score;
     }
 
-    /**
-     * 获取
-     * @return math_score
-     */
     public int getMath_score() {
         return math_score;
     }
 
-    /**
-     * 设置
-     * @param math_score
-     */
     public void setMath_score(int math_score) {
         this.math_score = math_score;
     }
 
-    /**
-     * 获取
-     * @return english_score
-     */
     public int getEnglish_score() {
         return english_score;
     }
 
-    /**
-     * 设置
-     * @param english_score
-     */
     public void setEnglish_score(int english_score) {
         this.english_score = english_score;
     }
