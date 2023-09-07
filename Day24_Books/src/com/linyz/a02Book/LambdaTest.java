@@ -2,6 +2,8 @@ package com.linyz.a02Book;
 
 import java.util.Arrays;
 
+/*var 语法糖*/
+
 public class LambdaTest {
     public static void main(String[] args) {
         var arr = new String[]{"xswl", "xsads", "ashfdoas", "cashds"};
