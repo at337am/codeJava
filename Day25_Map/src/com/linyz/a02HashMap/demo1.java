@@ -1,4 +1,6 @@
-package com.linyz.a02.HashMap;
+package com.linyz.a02HashMap;
+
+/*HashMap 无序, 不重复, 无索引*/
 
 // 练习1
 // HashMap存储 键:学生对象Student, 值: 籍贯String

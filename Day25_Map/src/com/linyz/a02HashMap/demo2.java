@@ -1,4 +1,4 @@
-package com.linyz.a02.HashMap;
+package com.linyz.a02HashMap;
 
 // 练习2
 // 八十名学生, 四个景点A,B,C,D, 每个学生选一个景点, 计算出哪个景点去的人数最多
