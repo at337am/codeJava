@@ -1,5 +1,7 @@
 package com.linyz.a05Set.TreeSet;
 
+// 可排序
+
 import java.util.Iterator;
 import java.util.TreeSet;
 

@@ -1,5 +1,7 @@
 package com.linyz.a05Set.LinkedHashSet;
 
+// 有序
+
 import java.util.LinkedHashSet;
 
 public class demo1 {

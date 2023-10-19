@@ -2,7 +2,7 @@ package com.linyz.a05Set.HashSet;
 
 import java.util.HashSet;
 
-// 有序
+// 无序
 
 public class demo1 {
     public static void main(String[] args) {
