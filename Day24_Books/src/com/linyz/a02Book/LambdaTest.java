@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class LambdaTest {
     public static void main(String[] args) {
-        var arr = new String[]{"xswl", "xsads", "ashfdoas", "cashds"};
+        String[] arr = new String[]{"xswl", "xsads", "ashfdoas", "cashds"};
         System.out.println(Arrays.toString(arr));
 
         Arrays.sort(arr);

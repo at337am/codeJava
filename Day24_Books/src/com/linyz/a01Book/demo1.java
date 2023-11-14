@@ -11,7 +11,7 @@ public class demo1 {
         Student stu3 = new Student("xsl", 13);
         Student stu4 = new Student("xswl", 12);
 
-        var list = new ArrayList<Student>();
+        ArrayList<Student> list = new ArrayList<>();
 
         list.add(stu1);
         list.add(stu2);

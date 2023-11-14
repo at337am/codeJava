@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class PredicateTest {
     public static void main(String[] args) {
-        var list = new ArrayList<String>();
+        ArrayList<String> list = new ArrayList<String>();
         list.add("xswl");
         list.add("xl");
         list.add("xsl");
