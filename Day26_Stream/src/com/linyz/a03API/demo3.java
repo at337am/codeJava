@@ -1,10 +1,11 @@
-package com.linyz.a03;
+package com.linyz.a03API;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.function.Function;
 
 // 中间方法
+
 // 类型转换
 public class demo3 {
     public static void main(String[] args) {

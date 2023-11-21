@@ -1,4 +1,4 @@
-package com.linyz.a03;
+package com.linyz.a03API;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,6 +19,7 @@ public class demo2 {
         System.out.println("===========");
 
         // 合并两个流
+        // 最好是同种数据类型
         ArrayList<Integer> list2 = new ArrayList<>();
         Collections.addAll(list2, 1, 2, 1231, 2);
         Stream.concat(list1.stream(), list2.stream()).forEach(System.out::println);
