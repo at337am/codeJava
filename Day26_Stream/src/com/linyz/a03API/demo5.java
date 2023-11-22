@@ -29,12 +29,13 @@ public class demo5 {
         Map<String, String> collectMap = list.stream()
                 .filter(s -> "boy".equals(s.split("-")[1]))
                 // 第一个匿名内部类, 键的规则
-                .collect(Collectors.toMap(new Function<String, String>() {
-                                              @Override
-                                              public String apply(String s) {
-                                                  return s.split("-")[0];
-                                              }
-                                          },
+                .collect(Collectors.toMap(
+                        new Function<String, String>() {
+                            @Override
+                            public String apply(String s) {
+                                return s.split("-")[0];
+                            }
+                        },
                         // 第二个匿名内部类, 值的规则
                         new Function<String, String>() {
                             @Override
@@ -46,14 +47,16 @@ public class demo5 {
         // 改写成lambda表达式 toMap
         Map<String, String> collectMap2 = list.stream()
                 .filter(s -> "boy".equals(s.split("-")[1]))
-                .collect(Collectors.toMap(s -> s.split("-")[0], s -> s.split("-")[2]));
+                .collect(Collectors.toMap(
+                        s -> s.split("-")[0],
+                        s -> s.split("-")[2]));
 
+        // 遍历
         collectMap2.forEach(new BiConsumer<String, String>() {
             @Override
             public void accept(String s, String s2) {
-                System.out.println(s + "-" +s2);
+                System.out.println(s + "-" + s2);
             }
         });
-
     }
 }

@@ -8,9 +8,7 @@ import java.util.stream.Collectors;
 
 public class demo1 {
     public static void main(String[] args) {
-        // 一个集合中有一些数据
-        // 过滤奇数 保留偶数
-        // 并将结果保存起来
+        // 过滤奇数 保留偶数 并将结果保存起来
 
         ArrayList<Integer> list = new ArrayList<>();
         Collections.addAll(list, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0);
