@@ -1,4 +1,4 @@
-package com.linyz.a01;
+package com.linyz.a01ExceptionMethods;
 
 import java.util.ArrayList;
 import java.util.Collections;
