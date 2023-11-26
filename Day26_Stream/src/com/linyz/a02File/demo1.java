@@ -1,4 +1,4 @@
-package com.linyz.a02;
+package com.linyz.a02File;
 
 import java.util.ArrayList;
 import java.util.Collections;

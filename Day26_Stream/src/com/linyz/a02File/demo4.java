@@ -1,4 +1,4 @@
-package com.linyz.a02;
+package com.linyz.a02File;
 
 // 零散数据获取Stream流
 
