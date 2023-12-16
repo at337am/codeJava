@@ -17,8 +17,8 @@ public class demo1 {
             System.out.println(arr[5]);
 
         } catch (ArrayIndexOutOfBoundsException e) {
-//            System.out.println(e.toString());
-//            System.out.println(e.getMessage());
+            // System.out.println(e.toString());
+            // System.out.println(e.getMessage());
 
             e.printStackTrace();// Print information to the console
         }

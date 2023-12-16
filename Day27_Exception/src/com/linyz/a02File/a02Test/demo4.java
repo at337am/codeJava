@@ -22,11 +22,13 @@ public class demo4 {
 
     public static void setFileList(File src, ArrayList<String> list) {
         File[] files = src.listFiles();
-        for (File f : files)
+
+        for (File f : files) {
             if (f.isFile()) {
                 list.add(f.getName());
             } else if (f.isDirectory()) {
                 setFileList(f, list);
             }
+        }
     }
 }
