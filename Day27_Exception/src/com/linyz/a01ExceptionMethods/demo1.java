@@ -2,14 +2,15 @@ package com.linyz.a01ExceptionMethods;
 
 public class demo1 {
     public static void main(String[] args) {
+
         /*
-        * Common exception methods
-        *
-        * public String getMessage()    // Infrequently used
-        * public String toString()      // Infrequently used
-        * public void printStackTrace()
-        *
-        * */
+         * During development, you usually only need to throw an exception
+         * 开发当中, 通常只需要抛出异常
+         *
+         * public String getMessage()    // Infrequently used    不常用
+         * public String toString()      // Infrequently used    不常用
+         * public void printStackTrace()
+         * */
 
         int[] arr = {1, 2, 3, 4, 5};
 

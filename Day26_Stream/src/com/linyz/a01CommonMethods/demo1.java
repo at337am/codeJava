@@ -1,4 +1,4 @@
-package com.linyz.a03API;
+package com.linyz.a01CommonMethods;
 
 // 中间方法
 // 对数据本身无影响

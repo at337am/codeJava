@@ -1,4 +1,4 @@
-package com.linyz.a03OutputStream.a01FileOutputStream;
+package com.linyz.a01ByteStream.a01FileOutputStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

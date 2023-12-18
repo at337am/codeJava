@@ -1,4 +1,4 @@
-package com.linyz.a03OutputStream.a01FileOutputStream;
+package com.linyz.a01ByteStream.a01FileOutputStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -9,7 +9,7 @@ public class demo2 {
 
         // write string
 
-        FileOutputStream fileOutputStream = new FileOutputStream("./Day27_Exception/1.txt");
+        FileOutputStream fileOutputStream = new FileOutputStream("./Day28_IO/1.txt");
 
         String str = "aaa\n666";
 

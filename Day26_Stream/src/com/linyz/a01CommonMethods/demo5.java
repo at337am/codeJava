@@ -1,11 +1,11 @@
-package com.linyz.a03API;
+package com.linyz.a01CommonMethods;
 
 import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-//终结方法
+// 终结方法
 
 // 将流收集到集合中
 public class demo5 {
