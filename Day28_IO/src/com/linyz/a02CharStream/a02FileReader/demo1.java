@@ -1,4 +1,4 @@
-package com.linyz.a02CharStream.a01FileReader;
+package com.linyz.a02CharStream.a02FileReader;
 
 import java.io.FileReader;
 import java.io.IOException;
